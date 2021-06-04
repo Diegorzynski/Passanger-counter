@@ -1,13 +1,15 @@
 // document.getElementById("count-el").innerText = 5
-
-//let count = 0
-
+let countEl = document.getElementById("count-el")
 
 
-// initialize as 0 
-// listen for clicks to increment
-// increment the CountQueuingStrategychange the count-el in the html
+let count = 0
 
 function increment() {
-    console.log("the button was clicked")
+  count ++
+  countEl.innerText = count
+  console.log(count)
 }
+
+
+
+
