@@ -1,0 +1,7 @@
+document.getElementById("count-el").innerText = 5
+countEl.innerText = some variable
+onclick inside the html
+<button id="increment-btn" onclick="increment()">INCREMENT</button>
+
+DOM
+only means youre gonna be using js to modify the html hence Document
