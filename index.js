@@ -4,7 +4,7 @@ let count = 0
 
 function increment() {
   count ++
-  countEl.innerText = count
+  countEl.textContent = count
   }
 let saveBtn = getElementById("save-btn")
 
@@ -12,12 +12,12 @@ let saveBtn = getElementById("save-btn")
 
 function save() {
 let countStr  = count + " - ";
-saveEl.innerText += countStr;
+saveEl.textContent += countStr;
+countEl.textContent = 0
+count = 0 
   
-    console.log(count)
+console.log(count)
     }
-  
-   
 
 
 
